@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krasti Bank | Droši un Zviedru Jaunradi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="Krasti Bank Logo" width="120">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Sākums</a></li>
+                <li><a href="#services">Pakalpojumi</a></li>
+                <li><a href="#about">Par mums</a></li>
+                <li><a href="#contact">Kontakti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Laime ir KRASTI bankā! 🏦</h1>
+            <p>Mēs pārvēršam jūsu sapņus... par koda rindām.</p>
+            <button class="cta-button">Reģistrējies bez maksas!</button>
+        </div>
+        <!-- Добавьте ваше изображение для героя -->
+        <img src="assets/images/hero-image.png" alt="Bankas ēka" class="hero-image">
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Nereālie Pakalpojumi</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <img src="assets/images/loan-icon.png" alt="Kredīts">
+                <h3>Kredīts "Zelta Zirgs"</h3>
+                <p>0% likme, ja atmaksājat ar smieklu monētām!</p>
+            </div>
+            <div class="service-card">
+                <img src="assets/images/deposit-icon.png" alt="Depozīts">
+                <h3>Depozīts "Debesu Pelnītājs"</h3>
+                <p>Iegūstiet 200% peļņu, ja līst lietus!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>Vēsture no Gaisa Pilsētas</h2>
+        <p>Mēs esam balstīti uz 100% izdomātiem principiem. Dibināts 2077. gadā mākoņu iekarotāju komandas.</p>
+        <img src="assets/images/about-image.png" alt="Vēsture">
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Mēs esam... nekur?</h2>
+        <div class="contact-info">
+            <p>📧 info@krastibank.lv</p>
+            <p>📱 +371 1234 5678</p>
+            <p>🏠 Virtuālā iela 404, Latvija</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2023 Krasti Bank (Nav reāls. Neiet uz šo adresi!)</p>
+    </footer>
+
+    <script>
+        // Простая анимация для кнопки
+        document.querySelector('.cta-button').addEventListener('click', () => {
+            alert('Apsveicu! Jūs esat saņēmis 1 000 000 CO2 kvītis! 🌍');
+        });
+    </script>
+</body>
+</html>
